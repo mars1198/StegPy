@@ -5,7 +5,9 @@ Python terminal tool for steganography. Works propperly only with png files. Wor
 # Install
 
 git clone https://github.com/mars1198/StegPy.py.git
+
 cd StegPy
+
 pip3 install -r requirenments.txt
 
 Ok, ready to use
