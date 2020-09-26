@@ -8,7 +8,7 @@ git clone https://github.com/mars1198/StegPy.py.git
 
 cd StegPy
 
-pip3 install -r requirenments.txt
+pip3 install -r requirements.txt
 
 Ok, ready to use
 
