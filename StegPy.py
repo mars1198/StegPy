@@ -149,13 +149,13 @@ if __name__ == "__main__":
             decoded_data = stega_decrypt(output_image, our_keys)
             print("you message: ", decoded_data)
         else:
-            print("Input for encoding data without keys: python3 stega.py -n -e [path_to_image] [path_to_save_encoded_image] your_message")
-            print("Input for decoding data without keys: python3 stega.py -n -d [path_to_encoded_image]")
-            print("Input for encoding data with keys: python3 stega.py -k -e [path_to_image] [path_to_save_encoded_image] your_message")
-            print("Input for decoding data with keys: python3 stega.py -k -d [path_to_encoded_image] [path_to_keys]")
+            print("Input for encoding data without keys: python3 StegPy.py -n -e [path_to_image] [path_to_save_encoded_image] your_message")
+            print("Input for decoding data without keys: python3 StegPy.py -n -d [path_to_encoded_image]")
+            print("Input for encoding data with keys: python3 StegPy.py -k -e [path_to_image] [path_to_save_encoded_image] your_message")
+            print("Input for decoding data with keys: python3 StegPy.py -k -d [path_to_encoded_image] [path_to_keys]")
     except IndexError:
-        print("Input for encoding data without keys: python3 stega.py -n -e [path_to_image] [path_to_save_encoded_image] your_message")
-        print("Input for decoding data without keys: python3 stega.py -n -d [path_to_encoded_image]")
-        print("Input for encoding data with keys: python3 stega.py -k -e [path_to_image] [path_to_save_encoded_image] your_message")
-        print("Input for decoding data with keys: python3 stega.py -k -d [path_to_encoded_image] [path_to_keys]")
+        print("Input for encoding data without keys: python3 StegPy.py -n -e [path_to_image] [path_to_save_encoded_image] your_message")
+        print("Input for decoding data without keys: python3 StegPy.py -n -d [path_to_encoded_image]")
+        print("Input for encoding data with keys: python3 StegPy.py -k -e [path_to_image] [path_to_save_encoded_image] your_message")
+        print("Input for decoding data with keys: python3 StegPy.py -k -d [path_to_encoded_image] [path_to_keys]")
 
