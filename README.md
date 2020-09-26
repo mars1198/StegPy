@@ -2,6 +2,13 @@
 
 Python terminal tool for steganography. Works propperly only with png files. Works in two modes: without a key and with a key. A key is an .txt that will be saved in scripts folder after encoding.
 
+# Install
+
+git clone https://github.com/mars1198/StegPy.py.git
+cd StegPy
+pip3 install -r requirenments.txt
+
+Ok, ready to use
 
 
 
