@@ -4,4 +4,7 @@ sys
 PIL
 random
 re
-colorama
+codecs
+zwsp_steg
+wave
+
