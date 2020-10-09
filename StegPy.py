@@ -224,10 +224,10 @@ def menu():
 	elif userInput == "6":
 		stega_decrypt() # decode message from png file with a key
 	elif userInput == "7":
-		encode_wav()
+		encode_wav() # encode into wav
 	elif userInput == "8":
 		decode_wav()
-	elif userInput == "x":
+	elif userInput == "x": # decode from wav
 		print("Goodbye!")
 		sys.exit()
 	else:
