@@ -202,7 +202,7 @@ def menu():
 	print("                         github.com/mars1198/StegPy " + version)
 	print("1) To hide a message into ZWC print 1")
 	print("2) To decode a ZWC message print 2")
-	print("3) To hide a message into a png print 3 without a key print 3")
+	print("3) To hide a message into a png without a key print 3")
 	print("4) To decode a message from png without a key print 4")
 	print("5) To hide a message into png with a key print 5")
 	print("6) To decode a message from png with a key print 6")
