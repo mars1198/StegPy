@@ -1,6 +1,9 @@
 # StegPy.py
 
-Python terminal tool for steganography. Works propperly only with png files. Works in two modes: without a key and with a key. A key is an .txt that will be saved in scripts folder after encoding.
+Python terminal tool for steganography. Works propperly only with png files, txt-files and wav files. Nothing really original, just compilation of tools.
+With PNG files it works in two modes: without a key and with a key. A key is an .txt file that will be saved in folder after encoding.
+
+Types of used steganography: ZWC for text (https://en.wikipedia.org/wiki/Zero-width_space), LSB for evrything else (https://www.computerhope.com/jargon/l/leastsb.htm)
 
 # Install
 
