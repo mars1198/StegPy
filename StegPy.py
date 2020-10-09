@@ -3,8 +3,6 @@ import wave
 import zwsp_steg
 import cv2
 import numpy as np
-import codecs
-import sys
 from PIL import Image, ImageDraw 
 from random import randint
 from re import findall
@@ -52,9 +50,9 @@ def decode_wav():
 def to_bin(data):
     """Convert `data` to binary format as string"""
     if isinstance(data, str):
-        return ''.join([ format(ord(i), "08b") for i in data ])
+        return ''.join([format(ord(i), "08b") for i in data])
     elif isinstance(data, bytes) or isinstance(data, np.ndarray):
-        return [ format(i, "08b") for i in data ]
+        return [format(i, "08b") for i in data]
     elif isinstance(data, int) or isinstance(data, np.uint8):
         return format(data, "08b")
     else:
