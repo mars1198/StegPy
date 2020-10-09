@@ -8,7 +8,7 @@ import sys
 from PIL import Image, ImageDraw 
 from random import randint
 from re import findall
-from colorama import Fore, Style
+
 
 def encode_wav():
     audiofile = input("Rplease enter the path to wav file: ")
