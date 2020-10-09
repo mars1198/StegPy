@@ -9,7 +9,7 @@ from re import findall
 
 
 def encode_wav():
-    audiofile = input("Rplease enter the path to wav file: ")
+    audiofile = input("Please enter the path to wav file: ")
     string = input("Please enter a message to hide: ")
     song = wave.open(audiofile, mode='rb')
     # Read frames and convert to byte array
